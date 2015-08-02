@@ -8,14 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
-
+class ViewController: UIViewController, FBSDKLoginButtonDelegate  {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         if (FBSDKAccessToken.currentAccessToken() != nil)
         {
-            println("Call 911")
             // User is already logged in, do work such as go to next view controller.
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("EventCollectionViewController") as! EventCollectionViewController
+            self.navigationController!.pushViewController(vc, animated: true)
         }
         else
         {
@@ -35,7 +40,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     // Facebook Delegate Methods
     
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        println("User Logged In")
         
         if ((error) != nil)
         {
@@ -47,10 +51,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         else {
             // If you ask for multiple permissions at once, you
             // should check if specific permissions missing
-            if result.grantedPermissions.contains("email")
-            {
-                // Do work
-            }
+            self.viewWillAppear(true);
         }
     }
     

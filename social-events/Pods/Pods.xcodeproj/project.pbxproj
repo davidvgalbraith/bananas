@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0731676D17BAAF4A3E58FEB1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E325E1D31A5F7E83F9F67 /* ISO8601DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		103006D1D9A8310032FAC919 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C82826D1055220856FB8B /* ToJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		224DAD0944FDDFBB219E3225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E9ED293AA4DD4A6E2C2E17 /* Foundation.framework */; };
+		26E58043F28252AD358AED11 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0427F2DC547A12C3A0E33 /* URLTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45DB687F322D18747527A853 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C182BD3624E58B68A76268 /* FromJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6073A81495CE780701D3AD14 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C921A6FAB6A931A211CA61 /* TransformOf.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		688A070E24422DCE96E0EA7C /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293EDACFEBEDF9D376E24DD1 /* EnumTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7461589A5FE099C915AC4F82 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0652BC769F4774F59CDEAC /* DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85F36E543680D34FC6831D45 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60FC70EC646B69C55A1A8B1 /* Mapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8B074E2B981BC1978FF03432 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654DAE35DBC5A26048CABFA7 /* Operators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4CD6F77DEA69AC1017CE342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E9ED293AA4DD4A6E2C2E17 /* Foundation.framework */; };
+		C473566B4159D3A0695D852B /* Pods-social-events-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C63DEF0719274B1CE468E12 /* Pods-social-events-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9714FDF99553DB85457B291 /* DateFormaterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016872E6F78E4407304D2910 /* DateFormaterTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFA145813301D1583D97315A /* Pods-social-events-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C9EC6077CD3FDFED80891 /* Pods-social-events-dummy.m */; };
+		D607D3BC06EBBF9E5AA29203 /* Pods-social-events-ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F339D372C4640BD0AF24230 /* Pods-social-events-ObjectMapper-dummy.m */; };
+		D612055B51C9F976FD77C27B /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1DCF63E7893F9859DE25D /* CustomDateFormatTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCCC3692A17E88E0A5B06FDC /* Pods-social-events-ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC7EADF502027A9007AF6FB /* Pods-social-events-ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F740E79CAA72D7515C1AFC84 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03359C236A7990C767D4D5C /* TransformType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A389E08063DCE1C00B66EB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75CCDAB6FC9856AF309D8104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454A3EB7DB5A67E9F3DAC958;
+			remoteInfo = "Pods-social-events-ObjectMapper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016872E6F78E4407304D2910 /* DateFormaterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormaterTransform.swift; path = ObjectMapper/Transforms/DateFormaterTransform.swift; sourceTree = "<group>"; };
+		034E325E1D31A5F7E83F9F67 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = ObjectMapper/Transforms/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		0C63DEF0719274B1CE468E12 /* Pods-social-events-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-social-events-umbrella.h"; sourceTree = "<group>"; };
+		1FD0ADC715BE8E22BC4CD921 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CF6C2FE39561CD8BD2C02C /* Pods_social_events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_social_events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C182BD3624E58B68A76268 /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = ObjectMapper/Core/FromJSON.swift; sourceTree = "<group>"; };
+		248340C2CBAE71491ED48ED3 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		293EDACFEBEDF9D376E24DD1 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = ObjectMapper/Transforms/EnumTransform.swift; sourceTree = "<group>"; };
+		2FB7B178DB53CDF8D9F1510B /* Pods-social-events-ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-social-events-ObjectMapper.modulemap"; sourceTree = "<group>"; };
+		383C9EC6077CD3FDFED80891 /* Pods-social-events-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-social-events-dummy.m"; sourceTree = "<group>"; };
+		3CC7EADF502027A9007AF6FB /* Pods-social-events-ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-social-events-ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		4B18775C08708AA9B35FABE3 /* Pods-social-events-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-social-events-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F0652BC769F4774F59CDEAC /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = ObjectMapper/Transforms/DateTransform.swift; sourceTree = "<group>"; };
+		654DAE35DBC5A26048CABFA7 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = ObjectMapper/Core/Operators.swift; sourceTree = "<group>"; };
+		69DDB1F09DDE227AAFEFEA97 /* Pods-social-events-ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-social-events-ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		6CF0427F2DC547A12C3A0E33 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = ObjectMapper/Transforms/URLTransform.swift; sourceTree = "<group>"; };
+		71CC9D23E5795315BC3143E7 /* Pods-social-events-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-social-events-environment.h"; sourceTree = "<group>"; };
+		7837D8BC01DCA11BA7138D87 /* Pods-social-events-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-social-events-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D69490EA4440452D113DEDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED1DCF63E7893F9859DE25D /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = ObjectMapper/Transforms/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		84E872063CC415BAC918C515 /* Pods-social-events.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-social-events.modulemap"; sourceTree = "<group>"; };
+		8F339D372C4640BD0AF24230 /* Pods-social-events-ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-social-events-ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		9F3EF33D986BCC56236A9E0E /* Pods-social-events-ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-social-events-ObjectMapper.xcconfig"; sourceTree = "<group>"; };
+		A0082A9A6F9D8870016B3E15 /* Pods-social-events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-social-events.debug.xcconfig"; sourceTree = "<group>"; };
+		A58C181BF642C168CEE09EC4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A953443514CA8ACAAA61674D /* Pods-social-events-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-social-events-frameworks.sh"; sourceTree = "<group>"; };
+		AB7C82826D1055220856FB8B /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = ObjectMapper/Core/ToJSON.swift; sourceTree = "<group>"; };
+		BE9AC93F6C97B859F86275F8 /* Pods-social-events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-social-events.release.xcconfig"; sourceTree = "<group>"; };
+		C60FC70EC646B69C55A1A8B1 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = ObjectMapper/Core/Mapper.swift; sourceTree = "<group>"; };
+		D03359C236A7990C767D4D5C /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = ObjectMapper/Transforms/TransformType.swift; sourceTree = "<group>"; };
+		D8C921A6FAB6A931A211CA61 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = ObjectMapper/Transforms/TransformOf.swift; sourceTree = "<group>"; };
+		E81BDFD0AE1086DB7D1012B6 /* Pods-social-events-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-social-events-resources.sh"; sourceTree = "<group>"; };
+		E95E2EAB10C817770FECCD74 /* Pods-social-events-ObjectMapper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-social-events-ObjectMapper-Private.xcconfig"; sourceTree = "<group>"; };
+		F5E9ED293AA4DD4A6E2C2E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B1647769EC940526C9D338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224DAD0944FDDFBB219E3225 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03F4636A83C1F173D269120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD6F77DEA69AC1017CE342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271E3EE74960114029F84998 = {
+			isa = PBXGroup;
+			children = (
+				A58C181BF642C168CEE09EC4 /* Podfile */,
+				B5AFDFA92B4845B10B07A60F /* Frameworks */,
+				CB1E71FEEC5AF1203EEF4BE1 /* Pods */,
+				F15D0DA09564B95FF5812706 /* Products */,
+				794D030F3AE4D13B21084CB4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		29E9B877B924E356155D9F9B /* Pods-social-events */ = {
+			isa = PBXGroup;
+			children = (
+				1FD0ADC715BE8E22BC4CD921 /* Info.plist */,
+				84E872063CC415BAC918C515 /* Pods-social-events.modulemap */,
+				7837D8BC01DCA11BA7138D87 /* Pods-social-events-acknowledgements.markdown */,
+				4B18775C08708AA9B35FABE3 /* Pods-social-events-acknowledgements.plist */,
+				383C9EC6077CD3FDFED80891 /* Pods-social-events-dummy.m */,
+				71CC9D23E5795315BC3143E7 /* Pods-social-events-environment.h */,
+				A953443514CA8ACAAA61674D /* Pods-social-events-frameworks.sh */,
+				E81BDFD0AE1086DB7D1012B6 /* Pods-social-events-resources.sh */,
+				0C63DEF0719274B1CE468E12 /* Pods-social-events-umbrella.h */,
+				A0082A9A6F9D8870016B3E15 /* Pods-social-events.debug.xcconfig */,
+				BE9AC93F6C97B859F86275F8 /* Pods-social-events.release.xcconfig */,
+			);
+			name = "Pods-social-events";
+			path = "Target Support Files/Pods-social-events";
+			sourceTree = "<group>";
+		};
+		54B284A7F58E4B4E1AB3D4F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9ED293AA4DD4A6E2C2E17 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		794D030F3AE4D13B21084CB4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E9B877B924E356155D9F9B /* Pods-social-events */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF8654DD431A0DF430D23DD3 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1DCF63E7893F9859DE25D /* CustomDateFormatTransform.swift */,
+				016872E6F78E4407304D2910 /* DateFormaterTransform.swift */,
+				5F0652BC769F4774F59CDEAC /* DateTransform.swift */,
+				293EDACFEBEDF9D376E24DD1 /* EnumTransform.swift */,
+				23C182BD3624E58B68A76268 /* FromJSON.swift */,
+				034E325E1D31A5F7E83F9F67 /* ISO8601DateTransform.swift */,
+				C60FC70EC646B69C55A1A8B1 /* Mapper.swift */,
+				654DAE35DBC5A26048CABFA7 /* Operators.swift */,
+				AB7C82826D1055220856FB8B /* ToJSON.swift */,
+				D8C921A6FAB6A931A211CA61 /* TransformOf.swift */,
+				D03359C236A7990C767D4D5C /* TransformType.swift */,
+				6CF0427F2DC547A12C3A0E33 /* URLTransform.swift */,
+				C534E11DD9381B91E72176AF /* Support Files */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		B5AFDFA92B4845B10B07A60F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B284A7F58E4B4E1AB3D4F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C534E11DD9381B91E72176AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D69490EA4440452D113DEDB /* Info.plist */,
+				2FB7B178DB53CDF8D9F1510B /* Pods-social-events-ObjectMapper.modulemap */,
+				9F3EF33D986BCC56236A9E0E /* Pods-social-events-ObjectMapper.xcconfig */,
+				E95E2EAB10C817770FECCD74 /* Pods-social-events-ObjectMapper-Private.xcconfig */,
+				8F339D372C4640BD0AF24230 /* Pods-social-events-ObjectMapper-dummy.m */,
+				69DDB1F09DDE227AAFEFEA97 /* Pods-social-events-ObjectMapper-prefix.pch */,
+				3CC7EADF502027A9007AF6FB /* Pods-social-events-ObjectMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-social-events-ObjectMapper";
+			sourceTree = "<group>";
+		};
+		CB1E71FEEC5AF1203EEF4BE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8654DD431A0DF430D23DD3 /* ObjectMapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F15D0DA09564B95FF5812706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248340C2CBAE71491ED48ED3 /* ObjectMapper.framework */,
+				20CF6C2FE39561CD8BD2C02C /* Pods_social_events.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1280F8278BE2935BB6D3BFA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473566B4159D3A0695D852B /* Pods-social-events-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D970F2B197472F18E7C8ECE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC3692A17E88E0A5B06FDC /* Pods-social-events-ObjectMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		454A3EB7DB5A67E9F3DAC958 /* Pods-social-events-ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AC0B6E9B4F0247C4EA52B4 /* Build configuration list for PBXNativeTarget "Pods-social-events-ObjectMapper" */;
+			buildPhases = (
+				EF698F2198BF19A7AE6DFD34 /* Sources */,
+				D03F4636A83C1F173D269120 /* Frameworks */,
+				D970F2B197472F18E7C8ECE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-social-events-ObjectMapper";
+			productName = "Pods-social-events-ObjectMapper";
+			productReference = 248340C2CBAE71491ED48ED3 /* ObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F97AE9B008A869700869DDAD /* Pods-social-events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C09286DB73C8C3709EF36C /* Build configuration list for PBXNativeTarget "Pods-social-events" */;
+			buildPhases = (
+				90968C1838C181357CDFCDA1 /* Sources */,
+				39B1647769EC940526C9D338 /* Frameworks */,
+				1280F8278BE2935BB6D3BFA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E43962140A1D32782A4CBB /* PBXTargetDependency */,
+			);
+			name = "Pods-social-events";
+			productName = "Pods-social-events";
+			productReference = 20CF6C2FE39561CD8BD2C02C /* Pods_social_events.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75CCDAB6FC9856AF309D8104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = F2BA9D01C38ED4FFE231F619 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 271E3EE74960114029F84998;
+			productRefGroup = F15D0DA09564B95FF5812706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97AE9B008A869700869DDAD /* Pods-social-events */,
+				454A3EB7DB5A67E9F3DAC958 /* Pods-social-events-ObjectMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90968C1838C181357CDFCDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA145813301D1583D97315A /* Pods-social-events-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF698F2198BF19A7AE6DFD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D612055B51C9F976FD77C27B /* CustomDateFormatTransform.swift in Sources */,
+				C9714FDF99553DB85457B291 /* DateFormaterTransform.swift in Sources */,
+				7461589A5FE099C915AC4F82 /* DateTransform.swift in Sources */,
+				688A070E24422DCE96E0EA7C /* EnumTransform.swift in Sources */,
+				45DB687F322D18747527A853 /* FromJSON.swift in Sources */,
+				0731676D17BAAF4A3E58FEB1 /* ISO8601DateTransform.swift in Sources */,
+				85F36E543680D34FC6831D45 /* Mapper.swift in Sources */,
+				8B074E2B981BC1978FF03432 /* Operators.swift in Sources */,
+				D607D3BC06EBBF9E5AA29203 /* Pods-social-events-ObjectMapper-dummy.m in Sources */,
+				103006D1D9A8310032FAC919 /* ToJSON.swift in Sources */,
+				6073A81495CE780701D3AD14 /* TransformOf.swift in Sources */,
+				F740E79CAA72D7515C1AFC84 /* TransformType.swift in Sources */,
+				26E58043F28252AD358AED11 /* URLTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7E43962140A1D32782A4CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-social-events-ObjectMapper";
+			target = 454A3EB7DB5A67E9F3DAC958 /* Pods-social-events-ObjectMapper */;
+			targetProxy = A389E08063DCE1C00B66EB75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14307A09CD80ADE5EF965D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F1EA78990A00D53D0790951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0082A9A6F9D8870016B3E15 /* Pods-social-events.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-social-events/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-social-events/Pods-social-events.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_social_events;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		609C8408F8B59BF35973EA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95E2EAB10C817770FECCD74 /* Pods-social-events-ObjectMapper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-social-events-ObjectMapper/Pods-social-events-ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-social-events-ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-social-events-ObjectMapper/Pods-social-events-ObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3535E7485753C2A0E6D6BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9AC93F6C97B859F86275F8 /* Pods-social-events.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-social-events/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-social-events/Pods-social-events.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_social_events;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDAF13265E76CE1B30B4BF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95E2EAB10C817770FECCD74 /* Pods-social-events-ObjectMapper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-social-events-ObjectMapper/Pods-social-events-ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-social-events-ObjectMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-social-events-ObjectMapper/Pods-social-events-ObjectMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFA5C5B00B1345440E55DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C09286DB73C8C3709EF36C /* Build configuration list for PBXNativeTarget "Pods-social-events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1EA78990A00D53D0790951 /* Debug */,
+				F3535E7485753C2A0E6D6BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AC0B6E9B4F0247C4EA52B4 /* Build configuration list for PBXNativeTarget "Pods-social-events-ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609C8408F8B59BF35973EA05 /* Debug */,
+				FDAF13265E76CE1B30B4BF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BA9D01C38ED4FFE231F619 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14307A09CD80ADE5EF965D03 /* Debug */,
+				FFA5C5B00B1345440E55DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75CCDAB6FC9856AF309D8104 /* Project object */;
+}

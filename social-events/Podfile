@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'social-events' do
+use_frameworks!
+pod 'ObjectMapper', '~> 0.14'
+
+end
+
+target 'social-eventsTests' do
+
+end
+
