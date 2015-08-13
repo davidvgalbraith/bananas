@@ -23,6 +23,7 @@
 		2F2428F21B6E9C7900578AD9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2428F11B6E9C7900578AD9 /* SwiftyJSON.swift */; };
 		2F2428F41B6EDF6000578AD9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2428F31B6EDF6000578AD9 /* DataManager.swift */; };
 		2F2428F61B6F02DF00578AD9 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2428F51B6F02DF00578AD9 /* events.json */; };
+		2F26BFBF1B7D1F4D00A2C74B /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26BFBE1B7D1F4D00A2C74B /* EventDetailsViewController.swift */; };
 		517419BF3C7A5C353E41264F /* Pods_social_events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9F418B536389403AA238E6 /* Pods_social_events.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		2F2428F11B6E9C7900578AD9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		2F2428F31B6EDF6000578AD9 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2F2428F51B6F02DF00578AD9 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		2F26BFBE1B7D1F4D00A2C74B /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
 		5879BF134FC29EBCD8A53314 /* Pods-social-events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-events.release.xcconfig"; path = "Pods/Target Support Files/Pods-social-events/Pods-social-events.release.xcconfig"; sourceTree = "<group>"; };
 		E3ACC3878BF07715828C33CB /* Pods-social-events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-events.debug.xcconfig"; path = "Pods/Target Support Files/Pods-social-events/Pods-social-events.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				2F2428BD1B6E09FB00578AD9 /* Supporting Files */,
 				2F2428EB1B6E864D00578AD9 /* EventCell.swift */,
 				2F2428ED1B6E918600578AD9 /* EventModel.swift */,
+				2F26BFBE1B7D1F4D00A2C74B /* EventDetailsViewController.swift */,
 			);
 			path = "social-events";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				2F2428C21B6E09FB00578AD9 /* ViewController.swift in Sources */,
 				2F2428EA1B6E14D800578AD9 /* EventCollectionViewController.swift in Sources */,
 				2F2428F41B6EDF6000578AD9 /* DataManager.swift in Sources */,
+				2F26BFBF1B7D1F4D00A2C74B /* EventDetailsViewController.swift in Sources */,
 				2F2428F21B6E9C7900578AD9 /* SwiftyJSON.swift in Sources */,
 				2F2428EE1B6E918600578AD9 /* EventModel.swift in Sources */,
 				2F2428C01B6E09FB00578AD9 /* AppDelegate.swift in Sources */,

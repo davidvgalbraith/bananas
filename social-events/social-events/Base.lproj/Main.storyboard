@@ -27,7 +27,6 @@
         <!--Event Collection View Controller-->
         <scene sceneID="GM1-fO-rKo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M18-vl-tiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <collectionViewController storyboardIdentifier="EventCollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uY9-ky-nhx" customClass="EventCollectionViewController" customModule="social_events" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QT2-g6-ABb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -96,8 +95,55 @@
                         </textField>
                     </navigationItem>
                 </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M18-vl-tiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2751" y="-73"/>
+        </scene>
+        <!--Event Details View Controller-->
+        <scene sceneID="OI7-3e-kJ0">
+            <objects>
+                <viewController restorationIdentifier="EventDetailsViewController" storyboardIdentifier="EventDetailsViewController" id="vkm-at-8Q8" customClass="EventDetailsViewController" customModule="social_events" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tHy-qm-L0O"/>
+                        <viewControllerLayoutGuide type="bottom" id="tjY-qa-9if"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f0g-G7-PVm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhb-mO-Kwh">
+                                <rect key="frame" x="36" y="20" width="548" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-l4-L3t">
+                                <rect key="frame" x="36" y="87" width="548" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fhb-mO-Kwh" secondAttribute="trailing" id="4cf-BS-Srz"/>
+                            <constraint firstItem="Fhb-mO-Kwh" firstAttribute="top" secondItem="tHy-qm-L0O" secondAttribute="bottom" id="Px6-S2-P9D"/>
+                            <constraint firstItem="mHE-l4-L3t" firstAttribute="leading" secondItem="Fhb-mO-Kwh" secondAttribute="leading" id="VB1-Sd-Zp4"/>
+                            <constraint firstItem="mHE-l4-L3t" firstAttribute="leading" secondItem="f0g-G7-PVm" secondAttribute="leadingMargin" constant="20" id="e4l-uB-RH3"/>
+                            <constraint firstItem="tjY-qa-9if" firstAttribute="top" secondItem="mHE-l4-L3t" secondAttribute="bottom" constant="313" id="eYO-Q5-TjW"/>
+                            <constraint firstItem="mHE-l4-L3t" firstAttribute="trailing" secondItem="f0g-G7-PVm" secondAttribute="trailingMargin" id="iVM-Ul-cmc"/>
+                            <constraint firstItem="mHE-l4-L3t" firstAttribute="top" secondItem="Fhb-mO-Kwh" secondAttribute="bottom" constant="19" id="mT0-ZM-DVn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="event_description" destination="mHE-l4-L3t" id="zCL-HK-S7z"/>
+                        <outlet property="event_title" destination="Fhb-mO-Kwh" id="sxL-VI-vmU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vIH-ja-BkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3477" y="-122"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8v9-0I-I5C">

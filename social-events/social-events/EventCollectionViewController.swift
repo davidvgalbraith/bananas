@@ -12,6 +12,7 @@ class EventCollectionViewController: UICollectionViewController, UICollectionVie
     private let reuseIdentifier = "EventCell"
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
     private var events = [EventModel]()
+    private var selectedEvent:EventModel!
     
     override func viewDidLoad() {
         let screenSize: CGRect = UIScreen.mainScreen().bounds
@@ -68,5 +69,13 @@ class EventCollectionViewController: UICollectionViewController, UICollectionVie
         sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
             var bounds = UIScreen.mainScreen().bounds
             return CGSizeMake(bounds.width, 100)
+    }
+
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let event = events[indexPath.item]
+]        let vc = self.storyboard!.instantiateViewControllerWithIdentifier("EventDetailsViewController") as! EventDetailsViewController
+        vc.event_title_text = event.name
+        vc.event_description_text = event.event_description
+        self.navigationController!.pushViewController(vc, animated: true)
     }
 }
